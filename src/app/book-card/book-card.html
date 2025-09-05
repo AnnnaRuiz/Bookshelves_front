@@ -1,0 +1,10 @@
+<div class="card m-3" style="width: 18rem;">
+  <img [src]="book.imageUrl" class="card-img-top book-img" [alt]="book.title">
+  <div class="card-body">
+    <h5 class="card-title">{{book.title}}</h5>
+    <p class="card-subtitle fst-italic">{{book.author}}</p>
+    <div class="d-flex justify-content-center">
+        <button class="btn btn-sm btn-dark m-2" (click)="onViewBook()">Détails</button>
+    </div>
+  </div>
+</div>
